@@ -7,4 +7,4 @@ for (const char of spin) {
   setTimeout(() => {
     process.stdout.write("\r" + char);
   }, 100 + animate);
-}; 
+}
